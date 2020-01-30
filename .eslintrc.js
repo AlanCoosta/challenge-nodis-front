@@ -33,17 +33,17 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
   rules: {
-    'react/jsx-filename-extension': [
-      'error',
-      {
-        extensions: ['.tsx'],
-      },
-    ],
     'import/prefer-default-export': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'no-console': ['error', { allow: ['tron'] }],
     'no-param-reassign': 'off',
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        extensions: ['.jsx', '.tsx'],
+      },
+    ],
     'import-helpers/order-imports': [
       'warn',
       {
