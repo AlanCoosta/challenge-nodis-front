@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Button from '../../Button';
 
-import { Container } from '../../Cart/CartEmpty/styles';
+import { Container } from './styles';
 
 const ProductNotExist: React.FC = () => (
   <Container>
