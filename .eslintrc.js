@@ -22,10 +22,10 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'import',
-    'import-helpers',
     'jsx-a11y',
     'react-hooks',
     'prettier',
+    'import-helpers',
   ],
   extends: [
     'airbnb',
@@ -38,6 +38,16 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'no-console': ['error', { allow: ['tron'] }],
     'no-param-reassign': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
     'react/jsx-filename-extension': [
       'error',
       {

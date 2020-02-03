@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  @media only screen and (max-width: 425px) {
-    width: auto;
-  }
   display: flex;
   justify-content: space-between;
   align-items: center;
